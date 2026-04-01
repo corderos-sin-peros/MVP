@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://corderossinperos.cl/sitemap.xml
