@@ -1208,26 +1208,8 @@
         <p class="producto-desc">Corte trasero con hueso. Envasada al vacío en termoformado. Opción con o sin hueso.</p>
         <div class="producto-footer">
           <div>
-            <span class="producto-precio">$34.990</span>
+            <span class="producto-precio">$29.990</span>
             <span class="producto-peso">~1,8 kg por unidad</span>
-          </div>
-          <button class="btn-ver">Ver más</button>
-        </div>
-      </div>
-    </div>
-    <div class="producto-card" onclick="abrirProducto('rack')">
-      <span class="producto-badge">Chef</span>
-      <div class="producto-img">
-        <svg width="120" height="100" viewBox="0 0 120 100" fill="none"><path d="M25 75 Q22 45 35 30 Q52 20 72 28 Q85 38 80 60 Q72 78 50 80 Z" fill="#C4A87A" stroke="#B5813B" stroke-width="1.5"/><line x1="35" y1="30" x2="30" y2="14" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="44" y1="26" x2="40" y2="10" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="53" y1="23" x2="51" y2="8" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="62" y1="24" x2="62" y2="9" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="71" y1="28" x2="73" y2="13" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/></svg>
-      </div>
-      <div class="producto-info">
-        <p class="producto-categoria">Costillar</p>
-        <h3 class="producto-nombre">Rack Francés</h3>
-        <p class="producto-desc">Rack limpiado al estilo francés, 6ª a 11ª costilla. El corte de presentación por excelencia.</p>
-        <div class="producto-footer">
-          <div>
-            <span class="producto-precio">$12.990</span>
-            <span class="producto-peso">350–400 g por unidad</span>
           </div>
           <button class="btn-ver">Ver más</button>
         </div>
@@ -1267,24 +1249,6 @@
         </div>
       </div>
     </div>
-    <div class="producto-card" onclick="abrirProducto('garron')">
-      <span class="producto-badge">Sous Vide</span>
-      <div class="producto-img">
-        <svg width="120" height="100" viewBox="0 0 120 100" fill="none"><rect x="46" y="15" width="22" height="58" rx="11" fill="#C4A87A" stroke="#B5813B" stroke-width="1.5"/><ellipse cx="57" cy="73" rx="26" ry="10" fill="#B8956A" stroke="#B5813B" stroke-width="1" opacity="0.8"/><ellipse cx="57" cy="73" rx="14" ry="5" fill="#C4A87A" stroke="#B5813B" stroke-width="0.8"/></svg>
-      </div>
-      <div class="producto-info">
-        <p class="producto-categoria">Preparado</p>
-        <h3 class="producto-nombre">Garrón Pierna (Sous Vide)</h3>
-        <p class="producto-desc">Ossobuco del cordero cocido sous vide. Listo para terminar al horno, sartén o parrilla.</p>
-        <div class="producto-footer">
-          <div>
-            <span class="producto-precio">$25.990</span>
-            <span class="producto-peso">2 garrones ~0,8 kg</span>
-          </div>
-          <button class="btn-ver">Ver más</button>
-        </div>
-      </div>
-    </div>
     <div class="producto-card" onclick="abrirProducto('mechada')">
       <span class="producto-badge">Nuevo</span>
       <div class="producto-img">
@@ -1296,7 +1260,7 @@
         <p class="producto-desc">Carne de cordero mechada, cocida a fuego lento con aliños naturales. Lista para calentar.</p>
         <div class="producto-footer">
           <div>
-            <span class="producto-precio">$15.990</span>
+            <span class="producto-precio">$18.990</span>
             <span class="producto-peso">500 g por envase</span>
           </div>
           <button class="btn-ver">Ver más</button>
@@ -1366,20 +1330,11 @@ const productos = {
   pierna: {
     categoria: "Corte trasero",
     nombre: "Pierna de Cordero",
-    precio: "$34.990",
+    precio: "$29.990",
     nota: "Por unidad (~1,8 kg)",
     descripcion: "Corte trasero con hueso, el más representativo del cordero. Proveniente de animales criados a pastoreo en el secano costero de la sexta región. Envasado al vacío en termoformado, conserva todas sus propiedades.",
     specs: ['Peso promedio: ~1,8 kg', 'Garrón separado', 'Bolsa al vacío termoformado', 'Fresco o congelado según disponibilidad'],
     svg: `<img src="${IMG_PIERNA}" alt="Pierna de Cordero" style="width:100%;height:100%;object-fit:contain;padding:1rem;background:#fff;"/>`
-  },
-  rack: {
-    categoria: "Costillar · Corte chef",
-    nombre: "Rack Francés",
-    precio: "$12.990",
-    nota: "Por unidad (350–400 g) · limpiado estilo francés",
-    descripcion: "El rack francés es el corte de presentación premium del cordero. Se obtiene de la 6ª a la 11ª costilla, limpiando el hueso al estilo francés para una presentación impecable en plato. Ideal para restaurantes o para quienes buscan impacto visual en la mesa.",
-    specs: ['350–400 g por unidad', '6ª a 11ª costilla', 'Hueso limpiado al estilo francés', 'Bolsa 25x25 al vacío', 'Temperatura interna recomendada: 60–65°C'],
-    svg: `<svg width="160" height="140" viewBox="0 0 120 100" fill="none"><path d="M25 75 Q22 45 35 30 Q52 20 72 28 Q85 38 80 60 Q72 78 50 80 Z" fill="#C4A87A" stroke="#B5813B" stroke-width="1.5"/><line x1="35" y1="30" x2="30" y2="14" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="44" y1="26" x2="40" y2="10" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="53" y1="23" x2="51" y2="8" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="62" y1="24" x2="62" y2="9" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/><line x1="71" y1="28" x2="73" y2="13" stroke="#B5813B" stroke-width="2" stroke-linecap="round"/></svg>`
   },
   costillar: {
     categoria: "Costillar",
@@ -1399,19 +1354,10 @@ const productos = {
     specs: ['~0,6 kg por unidad', 'Ideal para parrilla o cocción lenta', 'Fresco o congelado según disponibilidad'],
     svg: `<img src="${IMG_PALETA}" alt="Tapabarriga de Cordero" style="width:100%;height:100%;object-fit:contain;padding:1rem;background:#fff;"/>`
   },
-  garron: {
-    categoria: 'Preparado',
-    nombre: 'Garrón Pierna de Cordero (Sous Vide)',
-    precio: '$25.990',
-    nota: '2 garrones por bolsa al vacío (~0,8 kg total)',
-    descripcion: 'El ossobuco del cordero. Corte con hueso de la parte baja de la pierna, con médula y alto contenido de colágeno. Cocido sous vide para lograr una textura blanda, jugosa y lista para terminar al horno, sartén o parrilla.',
-    specs: ['~0,8 kg por bolsa', '2 unidades por bolsa al vacío', 'Cocción sous vide (listo para regenerar)', 'Ideal para horno, sartén o parrilla', 'Congelado · conservar a –18°C'],
-    svg: `<svg width="120" height="100" viewBox="0 0 120 100" fill="none"><rect x="46" y="15" width="22" height="58" rx="11" fill="#C4A87A" stroke="#B5813B" stroke-width="1.5"/><ellipse cx="57" cy="73" rx="26" ry="10" fill="#B8956A" stroke="#B5813B" stroke-width="1" opacity="0.8"/><ellipse cx="57" cy="73" rx="14" ry="5" fill="#C4A87A" stroke="#B5813B" stroke-width="0.8"/></svg>`
-  },
   mechada: {
     categoria: "Preparado · Listo para consumir",
     nombre: "Mechada de Cordero",
-    precio: "$15.990",
+    precio: "$18.990",
     nota: "500 g por envase · listo para calentar",
     descripcion: "Carne de cordero del secano, cocida a fuego lento y mechada. Elaborada a partir de cortes con hueso, lo que permite una mayor extracción de colágeno y desarrollo de sabor en la cocción prolongada con aliños naturales. Lista para consumir o calentar. Sin conservantes artificiales.",
     specs: ['500 g por envase', 'Cordero del secano costero 100%', 'Sin conservantes artificiales', 'Calentar a baño maría, microondas o plancha', 'Congelado · conservar a –18°C'],
